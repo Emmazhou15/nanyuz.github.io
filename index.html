@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>找词小不能手</title>
+    <style type="text/css">
+    *{
+        background-color: rgb(250, 241, 229);
+    }
+    #box{
+        background-color:#FC6;
+        margin:0 auto;
+        height: 40px;
+    }
+    #try{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+        direction: ltr;
+        text-overflow:ellipsis;
+        text-shadow: gray 5px 5px 5px, lightgray 5px 10px 10px;
+    }
+    #box ul{
+        list-style:none;
+    }
+    #box ul li{
+        width:80px;
+        height:40px;
+        text-align:center;
+        line-height:40px;
+        float:left;
+        background-color: #FC6;
+    }
+    #box ul li.news{
+        font-size:20px;
+        font-weight:bold;  /* 选中列表元素内的文字加粗显示 */
+        background-color: #FC6;
+    }
+    /* 鼠标指针放到li标记时li所显示的样式 */
+    #box ul li:hover{
+        background-color: black;
+        color:antiquewhite;
+        text-decoration: underline;
+        cursor:pointer;
+    }
+    #box ul li a{
+        text-decoration: none;
+        color:black;
+        background-color: #FC6;
+    }
+    #box ul li.news:hover a{
+        text-decoration: underline;
+        color: #FC6;
+        background-color: black;
+    }
+    #box ul li.international:hover a{
+        text-decoration: underline;
+        color:white;
+        background-color: black;
+    }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <ul>
+            <li class="mixedEducation">融合教育</li>
+            <li class="adjective">形容词</li>
+            <li class="verb">动词</li>
+            <li class="highFrequencyPreEducation">幼教高频词</li>
+        </ul>
+    </div>
+    <div id="try">
+        <p>办学理念<br>
+            学风<br>
+            教风<br>
+            着力推进<br>
+            规范融合<br>
+            把爱的种子播洒到每个需要的地方<br>
+            实施差异化教学<br>
+            进行针对性<br>
+            扩展了<br>
+            相互补充、相互完善<br>
+            向更多时空、更多内容不断延伸、扩展</p>
+    </div>
+</body>
+</html>
