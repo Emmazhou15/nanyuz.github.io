@@ -1,53 +1,32 @@
-*{
-    background-color: rgb(250, 241, 229);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-#box{
-    background-color:#FC6;
-    margin:0 auto;
-    height: 40px;
+body {
+	background: #a3f1a7f6;
+	padding: 15px;
 }
-#try{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
-    direction: ltr;
-    text-overflow:ellipsis;
-    text-shadow: gray 5px 5px 5px, lightgray 5px 10px 10px;
+button{
+    position:relative;
+    font-size: 20px;
+    display: inline-block;
+    background: transparent;
+    border-width:0px;
+    outline:none;
+    color:rgb(184, 184, 184);
 }
-#box ul{
-    list-style:none;
-}
-#box ul li{
-    width:80px;
-    height:40px;
-    text-align:center;
-    line-height:40px;
-    float:left;
-    background-color: #FC6;
-}
-#box ul li.news{
-    font-size:20px;
-    font-weight:bold;  /* 选中列表元素内的文字加粗显示 */
-    background-color: #FC6;
-}
-/* 鼠标指针放到li标记时li所显示的样式 */
-#box ul li:hover{
-    background-color: black;
-    color:antiquewhite;
+#category button:hover{
+    color:blanchedalmond;
     text-decoration: underline;
-    cursor:pointer;
 }
-#box ul li a{
-    text-decoration: none;
-    color:black;
-    background-color: #FC6;
+#category{
+    background-color: #363;
+    text-align: center;
 }
-#box ul li.news:hover a{
-    text-decoration: underline;
-    color: #FC6;
-    background-color: black;
-}
-#box ul li.international:hover a{
-    text-decoration: underline;
-    color:white;
-    background-color: black;
+p{
+    display:block;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:navy;
 }
