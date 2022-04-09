@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <script>
-        function clickEducation(){
-            x=document.getElementById("textArea");
-            x.innerHTML="幼教内容（暂空）";
-        }
-        function clickReport(){
-            x=document.getElementById("textArea");
-            x.innerHTML="报告内容（暂空）";
-        }
-        function clickMixed(){
-            x=document.getElementById("textArea");
-            x.innerHTML="融合内容（暂空）";
-        }
-    </script>
+<script>
+    function clickEducation() {
+        x = document.getElementById("textArea");
+        x.innerHTML = "幼教内容（暂空）";
+    }
+    function clickReport() {
+        x = document.getElementById("textArea");
+        x.innerHTML = "报告内容（暂空）";
+    }
+    function clickMixed() {
+        x = document.getElementById("textArea");
+        x.innerHTML = "办学理念 <br> 学风 <br> 教风 <br> 着力推进 <br> 规范融合 <br> 把爱的种子播洒到每个需要的地方 <br> 实施差异化教学 <br> 进行针对性 <br> 扩展了 <br> 相互补充、相互完善 <br> 向更多时空、更多内容不断延伸、扩展";
+    }
+
+
+
+</script>
+
 <head>
     <meta charset="UTF-8">
     <title>找词小不能手</title>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
+
 <body>
-    <div id="category">
-        <button type="button" onclick="clickEducation()">幼教</button>
-        <button type="button" onclick="clickReport()">报告</button>
-        <button type="button" onclick="clickMixed()">融合教育</button>
-    </div>
-    <p id="textArea" style="text-align:left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque tempora magni quaerat totam? Nemo ea minus, magni, quo reprehenderit at quos, non pariatur eveniet incidunt nam fuga modi labore voluptate.</p>
+<div id="category">
+    <button type="button" onclick="clickEducation()">幼教</button>
+    <button type="button" onclick="clickReport()">报告</button>
+    <button type="button" onclick="clickMixed()">融合教育</button>
+</div>
+<p id="textArea" style="text-align:left">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque tempora
+    magni quaerat totam? Nemo ea minus, magni, quo reprehenderit at quos, non pariatur eveniet incidunt nam fuga
+    modi labore voluptate.</p>
 </body>
+
 </html>
